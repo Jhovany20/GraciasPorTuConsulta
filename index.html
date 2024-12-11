@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - El Niño Curioso</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+    }
+
+    header {
+      background-color: blue;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .contact-container {
+      width: 70%;
+      margin: 30px auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-container h2 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    .contact-info {
+      margin-bottom: 30px;
+    }
+
+    .contact-info p {
+      font-size: 1rem;
+      margin: 5px 0;
+      color: #333;
+    }
+
+    .contact-info a {
+      color: #27ae60;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    .form-container {
+      margin-top: 20px;
+    }
+
+    .form-container label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .form-container input, .form-container textarea, .form-container button, .form-container select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+
+    .form-container button {
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .form-container button:hover {
+      background-color: #1e8449;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: rgb(15, 173, 36);
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Contacto - El Niño Curioso</h1>
+</header>
+
+<div class="contact-container">
+  <h2>¿Tienes dudas o necesitas ayuda?</h2>
+  <div class="contact-info">
+    <p><strong>Teléfono:</strong> <a href="tel:+522881088844">+52 288 108 88 44</a></p>
+    <p><strong>Correo Electrónico:</strong> <a href="mailto:tmtrebook@gmail.com">tmtrebook@gmail.com</a></p>
+    <p><strong>Dirección:</strong> Av. Leyes de Reforma #19, Carlos A. Carrillo Centro, Carlos A. Carrillo, CP 95330</p>
+    <p><strong>Horario de Atención:</strong> Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+  </div>
+
+  <h2>Formulario de Contacto</h2>
+  <div class="form-container">
+    <form action="Gracias por tu comentario.html" method="GET">
+      <label for="nombre">Nombre Completo:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre completo" required>
+
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" placeholder="Escribe tu correo electrónico" required>
+
+      <label for="motivo">Motivo de Contacto:</label>
+      <select id="motivo" name="motivo" required>
+        <option value="">Selecciona un motivo</option>
+        <option value="duda">Dudas sobre productos</option>
+        <option value="garantia">Devoluciones o garantía</option>
+        <option value="otro">Otro</option>
+      </select>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe aquí tu mensaje" required></textarea>
+
+      <button type="Gracias por tu comentario.html">Enviar Mensaje</button>
+    </form>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2024 El Niño Curioso. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
